@@ -1,162 +1,1325 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forro PVC em Botucatu | Preço m² e Instalação de Forros - Drywall Victorino</title>
-    <meta name="description" content="Procurando colocador de forro PVC em Botucatu e região? Instalação profissional de forro PVC branco e amadeirado. Preço justo por m² e orçamento rápido via WhatsApp.">
-    
-    <link rel="icon" type="image/png" href="../../imagens/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    
+    <title>Drywall Victorino | Forros de PVC, Drywall e Divisórias em Botucatu</title>
+    <meta name="description" content="Especialista em drywall, forros de PVC e divisórias em Botucatu e região. Orçamento rápido, qualidade e acabamento impecável.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
-        :root { --cor-fundo: #000000; --cor-card: #121212; --cor-borda: #222222; --cor-primaria: #f4c400; --cor-texto: #ffffff; --cor-whatsapp: #25d366; --cor-ligar: #007bff; }
-        body { background-color: var(--cor-fundo); color: var(--cor-texto); font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; line-height: 1.6; }
-        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
-        header { text-align: center; padding: 20px 0; }
-        h1 { color: var(--cor-primaria); font-size: 2rem; margin-bottom: 10px; }
-        .btn-cta { display: block; background-color: var(--cor-whatsapp); color: #fff; text-align: center; padding: 18px; border-radius: 50px; font-weight: bold; font-size: 1.1rem; margin: 25px 0; text-decoration: none; transition: transform 0.3s; }
-        .btn-ligar { background-color: var(--cor-ligar); margin-top: -15px; }
-        .btn-cta:hover { transform: scale(1.03); }
-        .grid-beneficios { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0; }
-        .card { background: var(--cor-card); padding: 25px; border-radius: 10px; margin: 20px 0; border: 1px solid var(--cor-borda); }
-        .card h2 { color: var(--cor-primaria); margin-top: 0; }
-        .grid-fotos { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 15px; }
-        .grid-fotos img { width: 100%; height: 120px; object-fit: cover; border-radius: 5px; border: 1px solid var(--cor-borda); }
-        .floating-whatsapp { position: fixed; bottom: 20px; right: 20px; background: var(--cor-whatsapp); color: #fff; padding: 15px 20px; border-radius: 50px; z-index: 1000; font-size: 1.2rem; box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: flex; align-items: center; gap: 8px; text-decoration: none; font-weight: bold; }
-        @media (max-width: 600px) { h1 { font-size: 1.5rem; } .grid-fotos { grid-template-columns: 1fr 1fr; } .grid-fotos img { height: 100px; } .grid-beneficios { grid-template-columns: 1fr; } }
+        /* ===== RESET E VARIÁVEIS ===== */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --primary: #0f4c81;
+            --primary-dark: #0a3a62;
+            --secondary: #f26522;
+            --secondary-dark: #d94f14;
+            --dark: #1a1a2e;
+            --light: #f7f9fc;
+            --white: #ffffff;
+            --gray: #6c757d;
+            --gray-light: #e9ecef;
+            --shadow: 0 8px 30px rgba(0,0,0,0.08);
+            --radius: 10px;
+            --transition: all 0.3s ease;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--dark);
+            line-height: 1.7;
+            background: var(--white);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ===== BOTÕES ===== */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--secondary);
+            color: var(--white);
+            padding: 14px 32px;
+            font-weight: 600;
+            border-radius: 50px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: var(--transition);
+            box-shadow: 0 4px 20px rgba(242, 101, 34, 0.35);
+        }
+
+        .btn:hover {
+            background: var(--secondary-dark);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(242, 101, 34, 0.45);
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            box-shadow: 0 4px 20px rgba(15, 76, 129, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-dark);
+            box-shadow: 0 8px 30px rgba(15, 76, 129, 0.4);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.35);
+        }
+
+        .btn-whatsapp:hover {
+            background: #1da851;
+            box-shadow: 0 8px 30px rgba(37, 211, 102, 0.45);
+        }
+
+        /* ===== CABEÇALHO ===== */
+        header {
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(12px);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        header.scrolled {
+            box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+        }
+
+        .header-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 0;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--primary);
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--secondary);
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+        }
+
+        .nav-menu a {
+            font-weight: 500;
+            font-size: 15px;
+            color: var(--dark);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-menu a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--secondary);
+            transition: var(--transition);
+        }
+
+        .nav-menu a:hover::after {
+            width: 100%;
+        }
+
+        .nav-menu a:hover {
+            color: var(--primary);
+        }
+
+        .nav-menu .btn-header {
+            background: var(--primary);
+            color: var(--white);
+            padding: 10px 22px;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+
+        .nav-menu .btn-header::after {
+            display: none;
+        }
+
+        .nav-menu .btn-header:hover {
+            background: var(--primary-dark);
+            color: var(--white);
+            transform: translateY(-2px);
+        }
+
+        .menu-toggle {
+            display: none;
+            font-size: 24px;
+            background: none;
+            border: none;
+            color: var(--primary);
+            cursor: pointer;
+        }
+
+        /* ===== HERO ===== */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, #0a2a4a 100%);
+            color: var(--white);
+            padding: 100px 0 90px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(242,101,34,0.15) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-text h1 {
+            font-size: 42px;
+            font-weight: 800;
+            line-height: 1.15;
+            margin-bottom: 18px;
+            letter-spacing: -0.5px;
+        }
+
+        .hero-text h1 .highlight {
+            color: var(--secondary);
+        }
+
+        .hero-text p {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 30px;
+            max-width: 500px;
+        }
+
+        .hero-badges {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .hero-badge {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            opacity: 0.85;
+        }
+
+        .hero-badge i {
+            font-size: 20px;
+            color: var(--secondary);
+        }
+
+        .hero-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-image-placeholder {
+            background: rgba(255,255,255,0.08);
+            border: 2px dashed rgba(255,255,255,0.2);
+            border-radius: var(--radius);
+            padding: 50px;
+            text-align: center;
+            width: 100%;
+            max-width: 450px;
+            backdrop-filter: blur(4px);
+        }
+
+        .hero-image-placeholder i {
+            font-size: 64px;
+            color: var(--secondary);
+            opacity: 0.6;
+            margin-bottom: 15px;
+        }
+
+        .hero-image-placeholder p {
+            font-size: 14px;
+            opacity: 0.6;
+        }
+
+        /* ===== SEÇÕES ===== */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-bg {
+            background: var(--light);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 34px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        .section-title .highlight {
+            color: var(--secondary);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--gray);
+            max-width: 650px;
+            margin: 0 auto 50px;
+            font-size: 17px;
+        }
+
+        .section-title-line {
+            width: 60px;
+            height: 3px;
+            background: var(--secondary);
+            margin: 0 auto 20px;
+            border-radius: 2px;
+        }
+
+        /* ===== SOBRE ===== */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+
+        .about-content h3 {
+            font-size: 26px;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .about-content p {
+            color: #4a4a5a;
+            margin-bottom: 16px;
+        }
+
+        .about-list {
+            list-style: none;
+            margin: 20px 0 25px;
+        }
+
+        .about-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+
+        .about-list li i {
+            color: var(--secondary);
+            font-size: 18px;
+            margin-top: 3px;
+        }
+
+        .tech-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--white);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+
+        .tech-table th {
+            background: var(--primary);
+            color: var(--white);
+            padding: 14px 18px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 15px;
+        }
+
+        .tech-table td {
+            padding: 14px 18px;
+            border-bottom: 1px solid var(--gray-light);
+            font-size: 14px;
+        }
+
+        .tech-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .tech-table tr:nth-child(even) {
+            background: #f8fafc;
+        }
+
+        .tech-table td:first-child {
+            font-weight: 600;
+            color: var(--primary);
+            width: 35%;
+        }
+
+        /* ===== SERVIÇOS ===== */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .service-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 35px 28px;
+            text-align: center;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            border: 1px solid transparent;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            border-color: var(--secondary);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: rgba(242, 101, 34, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 18px;
+            font-size: 30px;
+            color: var(--secondary);
+            transition: var(--transition);
+        }
+
+        .service-card:hover .service-icon {
+            background: var(--secondary);
+            color: var(--white);
+        }
+
+        .service-card h3 {
+            font-size: 20px;
+            color: var(--primary);
+            margin-bottom: 12px;
+        }
+
+        .service-card p {
+            font-size: 14px;
+            color: var(--gray);
+        }
+
+        /* ===== NORMAS ===== */
+        .norms-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .norms-text h2 {
+            text-align: left;
+        }
+
+        .norms-text .section-title-line {
+            margin: 0 0 20px 0;
+        }
+
+        .norms-text p {
+            color: #4a4a5a;
+            margin-bottom: 16px;
+        }
+
+        .norms-box {
+            background: var(--white);
+            border-left: 4px solid var(--primary);
+            padding: 22px 25px;
+            margin-bottom: 18px;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .norms-box:hover {
+            transform: translateX(5px);
+        }
+
+        .norms-box h4 {
+            color: var(--primary);
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .norms-box p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* ===== PORTFÓLIO ===== */
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .portfolio-item {
+            background: var(--white);
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+        }
+
+        .portfolio-image {
+            height: 200px;
+            background: linear-gradient(135deg, var(--gray-light), #dde1e8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: var(--gray);
+        }
+
+        .portfolio-item-content {
+            padding: 18px 22px 22px;
+        }
+
+        .portfolio-item-content h4 {
+            font-size: 16px;
+            color: var(--primary);
+            margin-bottom: 4px;
+        }
+
+        .portfolio-item-content p {
+            font-size: 13px;
+            color: var(--gray);
+        }
+
+        /* ===== DEPOIMENTOS ===== */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .testimonial-card {
+            background: var(--white);
+            border-radius: var(--radius);
+            padding: 28px;
+            box-shadow: var(--shadow);
+            border-top: 4px solid var(--secondary);
+        }
+
+        .testimonial-card .stars {
+            color: #f5b342;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .testimonial-card p {
+            font-size: 15px;
+            color: #4a4a5a;
+            font-style: italic;
+            margin-bottom: 14px;
+        }
+
+        .testimonial-card .author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .testimonial-card .author-avatar {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--primary);
+            color: var(--white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .testimonial-card .author-info h5 {
+            font-size: 15px;
+            color: var(--dark);
+        }
+
+        .testimonial-card .author-info span {
+            font-size: 12px;
+            color: var(--gray);
+        }
+
+        /* ===== CTA FINAL ===== */
+        .cta-final {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+            color: var(--white);
+            text-align: center;
+            padding: 80px 0;
+        }
+
+        .cta-final h2 {
+            font-size: 34px;
+            margin-bottom: 12px;
+        }
+
+        .cta-final p {
+            font-size: 18px;
+            opacity: 0.9;
+            max-width: 550px;
+            margin: 0 auto 30px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        /* ===== FAQ ===== */
+        .faq-grid {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--white);
+            border: 1px solid var(--gray-light);
+            border-radius: var(--radius);
+            margin-bottom: 14px;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+
+        .faq-item:hover {
+            border-color: var(--secondary);
+        }
+
+        .faq-question {
+            width: 100%;
+            padding: 18px 22px;
+            background: none;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--primary);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+            font-family: inherit;
+            transition: var(--transition);
+        }
+
+        .faq-question:hover {
+            color: var(--secondary);
+        }
+
+        .faq-question i {
+            transition: var(--transition);
+            font-size: 18px;
+            color: var(--secondary);
+        }
+
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            padding: 0 22px;
+            color: #555;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+            padding: 0 22px 20px;
+        }
+
+        /* ===== RODAPÉ ===== */
+        footer {
+            background: #111122;
+            color: #aaa;
+            padding: 50px 0 20px;
+            font-size: 14px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+
+        .footer-col h4 {
+            color: var(--white);
+            font-size: 18px;
+            margin-bottom: 14px;
+        }
+
+        .footer-col p {
+            margin-bottom: 8px;
+            color: #999;
+        }
+
+        .footer-col a {
+            color: var(--secondary);
+            transition: var(--transition);
+        }
+
+        .footer-col a:hover {
+            color: var(--white);
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 14px;
+            margin-top: 12px;
+        }
+
+        .footer-social a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.06);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            transition: var(--transition);
+            font-size: 18px;
+        }
+
+        .footer-social a:hover {
+            background: var(--secondary);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 13px;
+            color: #666;
+        }
+
+        /* ===== WHATSAPP FLUTUANTE ===== */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 999;
+        }
+
+        .whatsapp-float a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            color: var(--white);
+            border-radius: 50%;
+            font-size: 32px;
+            box-shadow: 0 4px 25px rgba(37, 211, 102, 0.45);
+            transition: var(--transition);
+            animation: pulse-whatsapp 2s infinite;
+        }
+
+        .whatsapp-float a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 35px rgba(37, 211, 102, 0.55);
+        }
+
+        @keyframes pulse-whatsapp {
+            0%, 100% { box-shadow: 0 4px 25px rgba(37, 211, 102, 0.45); }
+            50% { box-shadow: 0 4px 45px rgba(37, 211, 102, 0.7); }
+        }
+
+        /* ===== RESPONSIVIDADE ===== */
+        @media (max-width: 992px) {
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-text p {
+                margin: 0 auto 25px;
+            }
+
+            .hero-badges {
+                justify-content: center;
+            }
+
+            .hero-image-placeholder {
+                max-width: 100%;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .norms-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-menu {
+                display: none;
+                flex-direction: column;
+                gap: 12px;
+                padding: 20px 0 10px;
+                width: 100%;
+                background: var(--white);
+            }
+
+            .nav-menu.open {
+                display: flex;
+            }
+
+            .nav-menu a {
+                padding: 6px 0;
+            }
+
+            .nav-menu .btn-header {
+                margin-top: 5px;
+            }
+
+            .header-wrapper {
+                flex-wrap: wrap;
+            }
+
+            .hero {
+                padding: 70px 0 60px;
+            }
+
+            .hero-text h1 {
+                font-size: 30px;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .footer-social {
+                justify-content: center;
+            }
+
+            .section-title {
+                font-size: 26px;
+            }
+
+            .cta-final h2 {
+                font-size: 26px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .whatsapp-float {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .whatsapp-float a {
+                width: 54px;
+                height: 54px;
+                font-size: 28px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 16px;
+            }
+
+            .hero-text h1 {
+                font-size: 26px;
+            }
+
+            .hero-badges {
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .btn {
+                padding: 12px 24px;
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <header>
-        <a href="/" style="color: var(--cor-primaria); text-decoration: none; font-weight: bold;">← Voltar para Drywall Victorino</a>
-        <h1>Forro PVC em Botucatu</h1>
-        <p>Colocador profissional de forro PVC frisado, liso e amadeirado com acabamento impecável.</p>
+    <!-- ===== CABEÇALHO ===== -->
+    <header id="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">Drywall <span>Victorino</span></div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav class="nav-menu" id="navMenu">
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Quem Somos</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#portfolio">Portfólio</a>
+                    <a href="#faq">Dúvidas</a>
+                    <a href="https://wa.me/5511983316372" target="_blank" class="btn-header">
+                        <i class="fab fa-whatsapp"></i> Orçamento
+                    </a>
+                </nav>
+            </div>
+        </div>
     </header>
 
-    <img src="/imagens/forro de pvc.png" alt="Instalação de forro PVC residencial em Botucatu - Drywall Victorino" style="width:100%;border-radius:10px;margin-bottom:20px;">
-
-    <a href="https://wa.me/5511983316372?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20de%20forro%20PVC%20para%20Botucatu." class="btn-cta">
-        <i class="fab fa-whatsapp"></i> Solicitar Orçamento Sem Compromisso
-    </a>
-    <a href="tel:+5511983316372" class="btn-cta btn-ligar">
-        <i class="fas fa-phone-alt"></i> Ligar Agora (11) 98331-6372
-    </a>
-
-    <div class="card">
-        <h2>Por que escolher nossa Instalação de Forro PVC?</h2>
-        <p>Trabalhamos com materiais normatizados de alta qualidade para garantir um teto bonito, alinhado e durável para sua casa ou comércio.</p>
-        <div class="grid-beneficios">
-            <div>✅ <strong>Resistente à Umidade e Mofo:</strong> Excelente para banheiros, cozinhas e áreas gourmet.</div>
-            <div>✅ <strong>Forro PVC Amadeirado:</strong> A beleza estética da madeira com a praticidade do PVC.</div>
-            <div>✅ <strong>Instalação Rápida e Limpa:</strong> Obra ágil, sem quebra-quebra e sem sujeira.</div>
-            <div>✅ <strong>Estrutura Completa:</strong> Montagem firme e nivelada, sem perigo de selar ou ceder.</div>
-            <div>✅ <strong>Pronto com Iluminação:</strong> Como também somos eletricistas, entregamos seu forro já cortado e fiação pronta para spots ou painéis de LED.</div>
-            <div>✅ <strong>Manutenção Zero:</strong> Dispensa pintura, fácil de limpar e alta durabilidade.</div>
+    <!-- ===== HERO ===== -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Especialista em <span class="highlight">Drywall</span>, Forros de PVC e Divisórias em <span class="highlight">Botucatu</span></h1>
+                    <p>Projetamos e instalamos soluções sob medida para sua obra residencial, comercial ou industrial com acabamento impecável.</p>
+                    <a href="https://wa.me/5511983316372" target="_blank" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento
+                    </a>
+                    <div class="hero-badges">
+                        <span class="hero-badge"><i class="fas fa-check-circle"></i> Atendimento ágil</span>
+                        <span class="hero-badge"><i class="fas fa-check-circle"></i> Materiais normatizados</span>
+                        <span class="hero-badge"><i class="fas fa-check-circle"></i> Acabamento premium</span>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-placeholder">
+                        <i class="fas fa-hard-hat"></i>
+                        <p>Projetos em destaque em breve</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <div class="card">
-        <h2>Diferenciais Técnicos do Nosso Serviço</h2>
-        <ul style="list-style: none; padding: 0;">
-            <li style="margin-bottom: 12px;">📐 <strong>Nivelamento a Laser:</strong> Garantia de uma estrutura perfeitamente alinhada e reta, eliminando qualquer tipo de ondulação no teto.</li>
-            <li style="margin-bottom: 12px;">⚡ <strong>Elétrica Integrada:</strong> Economize tempo e dinheiro contratando o forro e a instalação de luminárias, pendentes e spots de LED com o mesmo especialista.</li>
-            <li style="margin-bottom: 12px;">💎 <strong>Acabamento de Primeira:</strong> Cantoneiras e molduras recortadas e encaixadas com precisão milimétrica para um visual moderno e limpo.</li>
-        </ul>
-    </div>
+    <!-- ===== SOBRE ===== -->
+    <section id="sobre">
+        <div class="container">
+            <h2 class="section-title">Quem <span class="highlight">Somos</span></h2>
+            <div class="section-title-line"></div>
+            <p class="section-subtitle">Conheça a Drywall Victorino, sua parceira em sistemas construtivos a seco na região de Botucatu</p>
 
-    <h2>Fotos de Nossos Trabalhos (Modelos de Forros)</h2>
-    <div class="grid-fotos">
-        <a href="/imagens/forro de pvc.png" target="_blank"><img src="/imagens/forro de pvc.png" alt="Instalação de Forro PVC em Botucatu" loading="lazy"></a>
-        <a href="/imagens/forro de pvc casa.jfif" target="_blank"><img src="/imagens/forro de pvc casa.jfif" alt="Forro PVC Residencial Branco" loading="lazy"></a>
-        <a href="/imagens/forro de pvc area gourment.jfif" target="_blank"><img src="/imagens/forro de pvc area gourment.jfif" alt="Forro PVC Área Gourmet" loading="lazy"></a>
-        <a href="/imagens/forro de pvc casa 3.jfif" target="_blank"><img src="/imagens/forro de pvc casa 3.jfif" alt="Preço de Forro PVC colocado" loading="lazy"></a>
-        <a href="/imagens/forro de pvc casa 5.jfif" target="_blank"><img src="/imagens/forro de pvc casa 5.jfif" alt="Colocador de Forro PVC profissional" loading="lazy"></a>
-        <a href="/imagens/ChatGPT Image 24 de mai. de 2026, 00_07_37.png" target="_blank"><img src="/imagens/ChatGPT Image 24 de mai. de 2026, 00_07_37.png" alt="Forro PVC Amadeirado instalado" loading="lazy"></a>
-    </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Referência em Qualidade e Agilidade</h3>
+                    <p>A <strong>Drywall Victorino</strong> é especializada em sistemas construtivos a seco, forros e divisórias estruturadas na região de Botucatu e interior de São Paulo.</p>
+                    <p>Nossa prioridade é entender perfeitamente o escopo e as reais necessidades de sua reforma ou construção, entregando agilidade, foco absoluto em limpeza técnica e excelente acabamento.</p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-home"></i> <div><strong>Residências:</strong> Forros de PVC, sancas em drywall e projetos luminotécnicos modernos.</div></li>
+                        <li><i class="fas fa-store"></i> <div><strong>Comércios:</strong> Divisórias navais e acartonadas para otimização rápida de layout.</div></li>
+                        <li><i class="fas fa-industry"></i> <div><strong>Indústrias:</strong> Fechamentos de alta resistência, isolamentos e forros modulares.</div></li>
+                    </ul>
+                </div>
+                <div>
+                    <table class="tech-table">
+                        <thead>
+                            <tr>
+                                <th colspan="2">Nossas Capacidades Técnicas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>PVC (Forros e Revestimentos)</td>
+                                <td>Estrutura em aço galvanizado. Material 100% imune a cupins e alta resistência contra a umidade.</td>
+                            </tr>
+                            <tr>
+                                <td>Drywall (Gesso Acartonado)</td>
+                                <td>Uso de placas Standard (ST), Resistentes à Umidade (RU) e Resistentes ao Fogo (RF).</td>
+                            </tr>
+                            <tr>
+                                <td>Serviços Integrados</td>
+                                <td>Infraestrutura elétrica para iluminação embutida (fitas de LED e spots) com acabamento refinado.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div style="text-align: center; margin: 30px 0;">
-        <p style="font-size: 1.1rem; font-weight: bold;">Gostou dos nossos modelos? Peça um preço estimado pelo WhatsApp!</p>
-        <a href="https://wa.me/5511983316372?text=Olá,%20vi%20as%20fotos%20do%20site%20e%20gostaria%20de%20um%20orçamento%20de%20forro%20PVC." class="btn-cta" style="margin: 10px auto; max-width: 400px;">
-            <i class="fab fa-whatsapp"></i> Simular Preço do m² no WhatsApp
+    <!-- ===== SERVIÇOS ===== -->
+    <section id="servicos" class="section-bg">
+        <div class="container">
+            <h2 class="section-title">Nossos <span class="highlight">Serviços</span></h2>
+            <div class="section-title-line"></div>
+            <p class="section-subtitle">Oferecemos soluções completas para transformar e valorizar qualquer tipo de ambiente</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>Forros de PVC</h3>
+                    <p>Instalação térmica, acústica e decorativa, ideal para ambientes que exigem facilidade de limpeza e imunidade total à umidade.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-vector-square"></i></div>
+                    <h3>Paredes e Drywall</h3>
+                    <p>Construção rápida de paredes internas, painéis de TV estruturados, closets sob medida e rebaixamentos modernos de teto.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-arrows-alt-h"></i></div>
+                    <h3>Divisórias Comerciais</h3>
+                    <p>Sistemas navais e modulares excelentes para escritórios, consultórios e corporações que precisam de mudanças ágeis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== NORMAS ===== -->
+    <section>
+        <div class="container">
+            <div class="norms-grid">
+                <div class="norms-text">
+                    <h2 class="section-title" style="text-align: left;">Atendimento <span class="highlight">Estruturado</span></h2>
+                    <div class="section-title-line" style="margin: 0 0 20px 0;"></div>
+                    <p>Buscamos entregar segurança absoluta a longo prazo. Por isso, a Drywall Victorino trabalha estritamente com materiais normatizados e perfis de aço estrutural galvanizado, prevenindo trincas, abaulamentos e deformações futuras.</p>
+                    <p>Garantimos conforto térmico e acústico superior por meio da aplicação opcional de mantas minerais (lã de vidro ou lã de rocha) no miolo das estruturas.</p>
+                    <a href="https://wa.me/5511983316372" target="_blank" class="btn btn-whatsapp" style="margin-top: 15px;">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento
+                    </a>
+                </div>
+                <div>
+                    <div class="norms-box">
+                        <h4><i class="fas fa-thermometer-half" style="margin-right: 10px; color: var(--secondary);"></i> Conforto Térmico & Acústico</h4>
+                        <p>Instalação planejada com isolantes internos que barram ruídos e calor excessivo.</p>
+                    </div>
+                    <div class="norms-box">
+                        <h4><i class="fas fa-shield-alt" style="margin-right: 10px; color: var(--secondary);"></i> Durabilidade e Resistência</h4>
+                        <p>Estruturas de PVC e Drywall que dispensam manutenção pesada, livres de mofo e oxidação.</p>
+                    </div>
+                    <div class="norms-box">
+                        <h4><i class="fas fa-ruler-combined" style="margin-right: 10px; color: var(--secondary);"></i> Alinhamento Perfeito</h4>
+                        <p>Utilização de ferramentas de alta precisão para garantir tetos e paredes 100% nivelados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFÓLIO ===== -->
+    <section id="portfolio" class="section-bg">
+        <div class="container">
+            <h2 class="section-title">Nosso <span class="highlight">Portfólio</span></h2>
+            <div class="section-title-line"></div>
+            <p class="section-subtitle">Conheça alguns dos projetos que já realizamos com excelência</p>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image"><i class="fas fa-building"></i></div>
+                    <div class="portfolio-item-content">
+                        <h4>Forro PVC - Residencial</h4>
+                        <p>Instalação de forro de PVC em sala de estar com iluminação embutida.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"><i class="fas fa-store"></i></div>
+                    <div class="portfolio-item-content">
+                        <h4>Divisórias - Escritório</h4>
+                        <p>Divisórias modulares em drywall para otimização de espaço corporativo.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image"><i class="fas fa-home"></i></div>
+                    <div class="portfolio-item-content">
+                        <h4>Sanca Drywall - Sala</h4>
+                        <p>Sanca em drywall com iluminação indireta para valorização do ambiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">O que nossos <span class="highlight">clientes dizem</span></h2>
+            <div class="section-title-line"></div>
+            <p class="section-subtitle">Depoimentos de quem confiou na Drywall Victorino</p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Excelente trabalho! Instalaram o forro de PVC na minha sala em tempo recorde e o acabamento ficou perfeito. Super recomendo!"</p>
+                    <div class="author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <h5>Marcos A.</h5>
+                            <span>Botucatu - SP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Equipe muito profissional e atenciosa. Fizeram as divisórias do meu escritório com muita qualidade. Nota 10!"</p>
+                    <div class="author">
+                        <div class="author-avatar">C</div>
+                        <div class="author-info">
+                            <h5>Carla F.</h5>
+                            <span>Escritório - Botucatu</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Contratei para fazer o drywall da minha reforma e fiquei impressionado com a agilidade e o capricho. Recomendo a todos!"</p>
+                    <div class="author">
+                        <div class="author-avatar">R</div>
+                        <div class="author-info">
+                            <h5>Roberto S.</h5>
+                            <span>Residencial - Botucatu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>Suas ideias, <span style="color: var(--secondary);">nossas soluções</span></h2>
+            <p>Entre em contato com a nossa equipe e mude o patamar do seu imóvel com o melhor custo-benefício.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/5511983316372" target="_blank" class="btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i> Fale Conosco no WhatsApp
+                </a>
+                <a href="#servicos" class="btn btn-primary">
+                    <i class="fas fa-arrow-right"></i> Conheça Nossos Serviços
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="section-bg">
+        <div class="container">
+            <h2 class="section-title">Dúvidas <span class="highlight">Frequentes</span></h2>
+            <div class="section-title-line"></div>
+            <p class="section-subtitle">Esclareça abaixo as principais dúvidas sobre nossos sistemas e processos</p>
+
+            <div class="faq-grid">
+                <div class="faq-item active">
+                    <button class="faq-question">
+                        <span>Quais as principais vantagens do forro de PVC em relação ao gesso tradicional?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">O forro de PVC possui instalação extremamente rápida, gera pouquíssimos resíduos na obra, é 100% imune a umidade e infiltrações leves (não mofa e não amarela), dispensa gastos recorrentes com pintura e exige apenas limpezas básicas periódicas.</div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Vocês realizam as instalações elétricas e o projeto de iluminação integrados?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">Sim! Para maior comodidade e otimização do cronograma, entregamos o forro de drywall ou PVC com toda a infraestrutura de fiação e furação prontas para spots e luminárias de LED, poupando a contratação de profissionais externos.</div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Como posso solicitar uma visita técnica ou orçamento em Botucatu e região?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">É muito simples: basta clicar em qualquer botão de WhatsApp nesta página para falar com nossa equipe técnica direta. Agendamos um horário flexível e compatível com sua rotina para realizar as medições e enviar a proposta detalhada.</div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Qual o prazo médio de execução de um projeto?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">O prazo depende da complexidade e tamanho do projeto. Em média, um forro de PVC de um ambiente pode ser instalado em 1 a 2 dias. Projetos maiores são avaliados e cronogramados com precisão antes do início.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Drywall Victorino</h4>
+                    <p>Especialistas em transformar ambientes comerciais, residenciais e industriais com sistemas de alto padrão de acabamento e durabilidade.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <p><a href="#inicio">Início</a></p>
+                    <p><a href="#sobre">Quem Somos</a></p>
+                    <p><a href="#servicos">Serviços</a></p>
+                    <p><a href="#portfolio">Portfólio</a></p>
+                    <p><a href="#faq">Dúvidas</a></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <p><i class="fab fa-whatsapp" style="color: var(--secondary);"></i> <a href="https://wa.me/5511983316372">(11) 98331-6372</a></p>
+                    <p><i class="fas fa-map-marker-alt" style="color: var(--secondary);"></i> Botucatu - SP e região</p>
+                    <p><i class="far fa-clock" style="color: var(--secondary);"></i> Segunda a Sexta: 8h às 18h</p>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2026 Drywall Victorino. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLUTUANTE ===== -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5511983316372" target="_blank" aria-label="Fale conosco no WhatsApp">
+            <i class="fab fa-whatsapp"></i>
         </a>
     </div>
 
-    <div class="card">
-        <h2>O que nossos clientes dizem no Google</h2>
-        <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 20px;">
-            <span style="color: #f4c400; font-size: 1.3rem;">⭐⭐⭐⭐⭐</span>
-            <strong style="background: #222; padding: 4px 10px; border-radius: 5px; font-size: 0.9rem; color: #fff;">
-                <i class="fab fa-google"></i> Avaliações no Google Meu Negócio
-            </strong>
-        </div>
-        
-        <!-- Avaliação 1: Altere com um depoimento real do seu perfil -->
-        <p style="border-left: 3px solid var(--cor-primaria); padding-left: 10px; margin-bottom: 20px;">
-            "Excelente profissional! Fez a instalação do forro PVC com muita agilidade, acabamento perfeito e deixou tudo muito limpo. Preço justo e cumpriu rigorosamente o prazo combinado." 
-            <br><small style="color: #888;">— <strong>Carlos M.</strong> • Cliente em Botucatu (Centro)</small>
-        </p>
-        
-        <!-- Avaliação 2: Altere com um depoimento real do seu perfil -->
-        <p style="border-left: 3px solid var(--cor-primaria); padding-left: 10px;">
-            "Super indico o trabalho do Victorino. Além de colocar o forro de PVC amadeirado na minha área gourmet, ele já resolveu toda a parte de fiação e spots de LED do teto. Serviço completo e de muita qualidade." 
-            <br><small style="color: #888;">— <strong>Maria S.</strong> • Cliente em Botucatu (Jardim Europa)</small>
-        </p>
-    </div>
+    <!-- ===== SCRIPTS ===== -->
+    <script>
+        // Menu Mobile
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
 
-    <div class="card">
-        <h2>Região de Atendimento</h2>
-        <p>Embora nosso contato principal seja <strong>DDD 11</strong>, atendemos diariamente com foco total em <strong>Botucatu e cidades vizinhas em um raio de até 70km</strong>, incluindo São Manuel, Pardinho, Bofete, Itatinga e Avaré. Atendemos residências, chácaras, escritórios e comércios em geral.</p>
-    </div>
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('open');
+            menuToggle.innerHTML = navMenu.classList.contains('open') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
 
-    <div class="card">
-        <h2>Perguntas Frequentes sobre Forro PVC</h2>
-        <p><strong>Qual o preço do m² do forro PVC colocado?</strong><br>O preço por metro quadrado varia de acordo com a área total da obra, o tipo de lâmina escolhido (branco liso, frisado ou amadeirado) e a altura do teto. Entre em contato para fazermos uma simulação exata para o seu espaço.</p>
-        <p><strong>Quanto tempo demora a colocação do teto?</strong><br>Somos muito ágeis. Na maioria dos cômodos residenciais (quartos, salas, cozinhas), a instalação completa do forro é concluída em apenas 1 dia de serviço.</p>
-        <p><strong>Vocês aceitam cartão? Quais as formas de pagamento?</strong><br>Yes, facilitamos o pagamento e aceitamos parcelamento no cartão de crédito, além de PIX e dinheiro.</p>
-        <p><strong>O forro ajuda no isolamento térmico?</strong><br>Sim! O PVC cria uma camada de ar isolante entre o telhado e o ambiente. Se você quiser um isolamento ainda mais forte contra o calor ou frio, podemos aplicar manta térmica ou lã de vidro junto com a estrutura.</p>
-    </div>
+        // Fecha menu ao clicar em um link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('open');
+                menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
 
-    <div class="card" style="text-align:center;">
-        <h2>Peça Seu Orçamento de Forro PVC Hoje</h2>
-        <p style="color:var(--cor-primaria); font-weight: bold;">🔒 Mão de obra qualificada • Orçamento sem compromisso • Garantia no acabamento</p>
-        <p>Mande as medidas do seu teto ou agende uma visita técnica pelo nosso WhatsApp.</p>
-        <a href="https://wa.me/5511983316372?text=Olá,%20gostaria%20de%20um%20orçamento%20de%20forro%20PVC%20para%20Botucatu." class="btn-cta">
-            <i class="fab fa-whatsapp"></i> Chamar no WhatsApp (11) 98331-6372
-        </a>
-    </div>
-</div>
+        // Cabeçalho com scroll
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
 
-<a href="https://wa.me/5511983316372?text=Olá,%20gostaria%20de%20um%20orçamento%20de%20forro%20PVC%20para%20Botucatu." class="floating-whatsapp">
-    <i class="fab fa-whatsapp"></i> <span>Orçamento</span>
-</a>
-
-<script type="application/ld+json">
-{
- "@context":"https://schema.org",
- "@type":"LocalBusiness",
- "name":"Drywall Victorino",
- "telephone":"+5511983316372",
- "url":"https://drywallvictorino.com.br",
- "image": "https://drywallvictorino.com.br/imagens/forro%20de%20pvc.png",
- "description": "Instalação profissional de forro PVC, drywall e elétrica residencial em Botucatu e região.",
- "areaServed":[
-    {"@type": "City", "name": "Botucatu"},
-    {"@type": "City", "name": "São Manuel"},
-    {"@type": "City", "name": "Pardinho"},
-    {"@type": "City", "name": "Itatinga"}
- ],
- "address":{
-   "@type":"PostalAddress",
-   "addressLocality":"Botucatu",
-   "addressRegion":"SP",
-   "addressCountry":"BR"
- }
-}
-</script>
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const item = button.parentElement;
+                const isActive = item.classList.contains('active');
+                
+                // Fecha todos
+                document.querySelectorAll('.faq-item').forEach(el => {
+                    el.classList.remove('active');
+                });
+                
+                // Abre o clicado se não estava ativo
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    </script>
 
 </body>
 </html>
