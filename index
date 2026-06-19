@@ -1,1 +1,162 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forro PVC em Botucatu | Preço m² e Instalação de Forros - Drywall Victorino</title>
+    <meta name="description" content="Procurando colocador de forro PVC em Botucatu e região? Instalação profissional de forro PVC branco e amadeirado. Preço justo por m² e orçamento rápido via WhatsApp.">
+    
+    <link rel="icon" type="image/png" href="../../imagens/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root { --cor-fundo: #000000; --cor-card: #121212; --cor-borda: #222222; --cor-primaria: #f4c400; --cor-texto: #ffffff; --cor-whatsapp: #25d366; --cor-ligar: #007bff; }
+        body { background-color: var(--cor-fundo); color: var(--cor-texto); font-family: 'Segoe UI', Tahoma, sans-serif; margin: 0; line-height: 1.6; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { text-align: center; padding: 20px 0; }
+        h1 { color: var(--cor-primaria); font-size: 2rem; margin-bottom: 10px; }
+        .btn-cta { display: block; background-color: var(--cor-whatsapp); color: #fff; text-align: center; padding: 18px; border-radius: 50px; font-weight: bold; font-size: 1.1rem; margin: 25px 0; text-decoration: none; transition: transform 0.3s; }
+        .btn-ligar { background-color: var(--cor-ligar); margin-top: -15px; }
+        .btn-cta:hover { transform: scale(1.03); }
+        .grid-beneficios { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0; }
+        .card { background: var(--cor-card); padding: 25px; border-radius: 10px; margin: 20px 0; border: 1px solid var(--cor-borda); }
+        .card h2 { color: var(--cor-primaria); margin-top: 0; }
+        .grid-fotos { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-top: 15px; }
+        .grid-fotos img { width: 100%; height: 120px; object-fit: cover; border-radius: 5px; border: 1px solid var(--cor-borda); }
+        .floating-whatsapp { position: fixed; bottom: 20px; right: 20px; background: var(--cor-whatsapp); color: #fff; padding: 15px 20px; border-radius: 50px; z-index: 1000; font-size: 1.2rem; box-shadow: 0 4px 10px rgba(0,0,0,0.5); display: flex; align-items: center; gap: 8px; text-decoration: none; font-weight: bold; }
+        @media (max-width: 600px) { h1 { font-size: 1.5rem; } .grid-fotos { grid-template-columns: 1fr 1fr; } .grid-fotos img { height: 100px; } .grid-beneficios { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <a href="/" style="color: var(--cor-primaria); text-decoration: none; font-weight: bold;">← Voltar para Drywall Victorino</a>
+        <h1>Forro PVC em Botucatu</h1>
+        <p>Colocador profissional de forro PVC frisado, liso e amadeirado com acabamento impecável.</p>
+    </header>
+
+    <img src="/imagens/forro de pvc.png" alt="Instalação de forro PVC residencial em Botucatu - Drywall Victorino" style="width:100%;border-radius:10px;margin-bottom:20px;">
+
+    <a href="https://wa.me/5511983316372?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20de%20forro%20PVC%20para%20Botucatu." class="btn-cta">
+        <i class="fab fa-whatsapp"></i> Solicitar Orçamento Sem Compromisso
+    </a>
+    <a href="tel:+5511983316372" class="btn-cta btn-ligar">
+        <i class="fas fa-phone-alt"></i> Ligar Agora (11) 98331-6372
+    </a>
+
+    <div class="card">
+        <h2>Por que escolher nossa Instalação de Forro PVC?</h2>
+        <p>Trabalhamos com materiais normatizados de alta qualidade para garantir um teto bonito, alinhado e durável para sua casa ou comércio.</p>
+        <div class="grid-beneficios">
+            <div>✅ <strong>Resistente à Umidade e Mofo:</strong> Excelente para banheiros, cozinhas e áreas gourmet.</div>
+            <div>✅ <strong>Forro PVC Amadeirado:</strong> A beleza estética da madeira com a praticidade do PVC.</div>
+            <div>✅ <strong>Instalação Rápida e Limpa:</strong> Obra ágil, sem quebra-quebra e sem sujeira.</div>
+            <div>✅ <strong>Estrutura Completa:</strong> Montagem firme e nivelada, sem perigo de selar ou ceder.</div>
+            <div>✅ <strong>Pronto com Iluminação:</strong> Como também somos eletricistas, entregamos seu forro já cortado e fiação pronta para spots ou painéis de LED.</div>
+            <div>✅ <strong>Manutenção Zero:</strong> Dispensa pintura, fácil de limpar e alta durabilidade.</div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Diferenciais Técnicos do Nosso Serviço</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li style="margin-bottom: 12px;">📐 <strong>Nivelamento a Laser:</strong> Garantia de uma estrutura perfeitamente alinhada e reta, eliminando qualquer tipo de ondulação no teto.</li>
+            <li style="margin-bottom: 12px;">⚡ <strong>Elétrica Integrada:</strong> Economize tempo e dinheiro contratando o forro e a instalação de luminárias, pendentes e spots de LED com o mesmo especialista.</li>
+            <li style="margin-bottom: 12px;">💎 <strong>Acabamento de Primeira:</strong> Cantoneiras e molduras recortadas e encaixadas com precisão milimétrica para um visual moderno e limpo.</li>
+        </ul>
+    </div>
+
+    <h2>Fotos de Nossos Trabalhos (Modelos de Forros)</h2>
+    <div class="grid-fotos">
+        <a href="/imagens/forro de pvc.png" target="_blank"><img src="/imagens/forro de pvc.png" alt="Instalação de Forro PVC em Botucatu" loading="lazy"></a>
+        <a href="/imagens/forro de pvc casa.jfif" target="_blank"><img src="/imagens/forro de pvc casa.jfif" alt="Forro PVC Residencial Branco" loading="lazy"></a>
+        <a href="/imagens/forro de pvc area gourment.jfif" target="_blank"><img src="/imagens/forro de pvc area gourment.jfif" alt="Forro PVC Área Gourmet" loading="lazy"></a>
+        <a href="/imagens/forro de pvc casa 3.jfif" target="_blank"><img src="/imagens/forro de pvc casa 3.jfif" alt="Preço de Forro PVC colocado" loading="lazy"></a>
+        <a href="/imagens/forro de pvc casa 5.jfif" target="_blank"><img src="/imagens/forro de pvc casa 5.jfif" alt="Colocador de Forro PVC profissional" loading="lazy"></a>
+        <a href="/imagens/ChatGPT Image 24 de mai. de 2026, 00_07_37.png" target="_blank"><img src="/imagens/ChatGPT Image 24 de mai. de 2026, 00_07_37.png" alt="Forro PVC Amadeirado instalado" loading="lazy"></a>
+    </div>
+
+    <div style="text-align: center; margin: 30px 0;">
+        <p style="font-size: 1.1rem; font-weight: bold;">Gostou dos nossos modelos? Peça um preço estimado pelo WhatsApp!</p>
+        <a href="https://wa.me/5511983316372?text=Olá,%20vi%20as%20fotos%20do%20site%20e%20gostaria%20de%20um%20orçamento%20de%20forro%20PVC." class="btn-cta" style="margin: 10px auto; max-width: 400px;">
+            <i class="fab fa-whatsapp"></i> Simular Preço do m² no WhatsApp
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>O que nossos clientes dizem no Google</h2>
+        <div style="display: flex; gap: 10px; align-items: center; margin-bottom: 20px;">
+            <span style="color: #f4c400; font-size: 1.3rem;">⭐⭐⭐⭐⭐</span>
+            <strong style="background: #222; padding: 4px 10px; border-radius: 5px; font-size: 0.9rem; color: #fff;">
+                <i class="fab fa-google"></i> Avaliações no Google Meu Negócio
+            </strong>
+        </div>
+        
+        <!-- Avaliação 1: Altere com um depoimento real do seu perfil -->
+        <p style="border-left: 3px solid var(--cor-primaria); padding-left: 10px; margin-bottom: 20px;">
+            "Excelente profissional! Fez a instalação do forro PVC com muita agilidade, acabamento perfeito e deixou tudo muito limpo. Preço justo e cumpriu rigorosamente o prazo combinado." 
+            <br><small style="color: #888;">— <strong>Carlos M.</strong> • Cliente em Botucatu (Centro)</small>
+        </p>
+        
+        <!-- Avaliação 2: Altere com um depoimento real do seu perfil -->
+        <p style="border-left: 3px solid var(--cor-primaria); padding-left: 10px;">
+            "Super indico o trabalho do Victorino. Além de colocar o forro de PVC amadeirado na minha área gourmet, ele já resolveu toda a parte de fiação e spots de LED do teto. Serviço completo e de muita qualidade." 
+            <br><small style="color: #888;">— <strong>Maria S.</strong> • Cliente em Botucatu (Jardim Europa)</small>
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Região de Atendimento</h2>
+        <p>Embora nosso contato principal seja <strong>DDD 11</strong>, atendemos diariamente com foco total em <strong>Botucatu e cidades vizinhas em um raio de até 70km</strong>, incluindo São Manuel, Pardinho, Bofete, Itatinga e Avaré. Atendemos residências, chácaras, escritórios e comércios em geral.</p>
+    </div>
+
+    <div class="card">
+        <h2>Perguntas Frequentes sobre Forro PVC</h2>
+        <p><strong>Qual o preço do m² do forro PVC colocado?</strong><br>O preço por metro quadrado varia de acordo com a área total da obra, o tipo de lâmina escolhido (branco liso, frisado ou amadeirado) e a altura do teto. Entre em contato para fazermos uma simulação exata para o seu espaço.</p>
+        <p><strong>Quanto tempo demora a colocação do teto?</strong><br>Somos muito ágeis. Na maioria dos cômodos residenciais (quartos, salas, cozinhas), a instalação completa do forro é concluída em apenas 1 dia de serviço.</p>
+        <p><strong>Vocês aceitam cartão? Quais as formas de pagamento?</strong><br>Yes, facilitamos o pagamento e aceitamos parcelamento no cartão de crédito, além de PIX e dinheiro.</p>
+        <p><strong>O forro ajuda no isolamento térmico?</strong><br>Sim! O PVC cria uma camada de ar isolante entre o telhado e o ambiente. Se você quiser um isolamento ainda mais forte contra o calor ou frio, podemos aplicar manta térmica ou lã de vidro junto com a estrutura.</p>
+    </div>
+
+    <div class="card" style="text-align:center;">
+        <h2>Peça Seu Orçamento de Forro PVC Hoje</h2>
+        <p style="color:var(--cor-primaria); font-weight: bold;">🔒 Mão de obra qualificada • Orçamento sem compromisso • Garantia no acabamento</p>
+        <p>Mande as medidas do seu teto ou agende uma visita técnica pelo nosso WhatsApp.</p>
+        <a href="https://wa.me/5511983316372?text=Olá,%20gostaria%20de%20um%20orçamento%20de%20forro%20PVC%20para%20Botucatu." class="btn-cta">
+            <i class="fab fa-whatsapp"></i> Chamar no WhatsApp (11) 98331-6372
+        </a>
+    </div>
+</div>
+
+<a href="https://wa.me/5511983316372?text=Olá,%20gostaria%20de%20um%20orçamento%20de%20forro%20PVC%20para%20Botucatu." class="floating-whatsapp">
+    <i class="fab fa-whatsapp"></i> <span>Orçamento</span>
+</a>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"LocalBusiness",
+ "name":"Drywall Victorino",
+ "telephone":"+5511983316372",
+ "url":"https://drywallvictorino.com.br",
+ "image": "https://drywallvictorino.com.br/imagens/forro%20de%20pvc.png",
+ "description": "Instalação profissional de forro PVC, drywall e elétrica residencial em Botucatu e região.",
+ "areaServed":[
+    {"@type": "City", "name": "Botucatu"},
+    {"@type": "City", "name": "São Manuel"},
+    {"@type": "City", "name": "Pardinho"},
+    {"@type": "City", "name": "Itatinga"}
+ ],
+ "address":{
+   "@type":"PostalAddress",
+   "addressLocality":"Botucatu",
+   "addressRegion":"SP",
+   "addressCountry":"BR"
+ }
+}
+</script>
+
+</body>
+</html>
